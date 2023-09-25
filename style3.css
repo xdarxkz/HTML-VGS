@@ -1,0 +1,164 @@
+body {
+    background-image: url(background.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #b2b3b3;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #EFC862;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #EFC862;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+  #r6gun{
+
+width: 120px;
+height: 100px;
+position: relative; top: -330px;
+
+
+  }
+
+  #dawid{
+
+
+    color: #b2b3b3;
+    position: absolute; bottom: 5px;
+    
+    
+    }
+    #nokk{
+border-radius: 20px;
+width: 200px;
+border: 10px solid #c300d7;
+border-style: double;
+position: relative; left: 1200px;
+position: relative; top: 200px;
+    }
+    #nomad{
+
+
+        border-radius: 20px;
+        width: 200px;
+        border: 10px solid #c300d7;
+        border-style: double;
+        position: relative; left: 705px;
+        position: relative; top: 200px;
+
+
+    }
+    #maverick{
+
+        border-radius: 20px;
+        width: 200px;
+        border: 10px solid #c300d7;
+        border-style: double;
+        position: relative; left: 205px;
+        position: relative; top: 200px;
+
+
+
+    }
+    #iana{
+
+        border-radius: 20px;
+        width: 200px;
+        border: 10px solid #c300d7;
+        border-style: double;
+        position: relative; right: 300px;
+        position: relative; top: 200px;
+        
+
+    }
+    #zero{
+
+        border-radius: 20px;
+        width: 200px;
+        border: 10px solid #c300d7;
+        border-style: double;
+        position: relative; right: 810px;
+        position: relative; top: 200px;
+
+    }
+    .bottom-box {
+        background-color: #333; 
+        color: #fff; 
+        padding: 30px; 
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        box-sizing: border-box; 
+      }
+      
+      
+      
+
+
+    

@@ -1,0 +1,139 @@
+html{
+
+
+
+
+    background-image: linear-gradient(45deg, #0a0a0a,#696564);
+    height: 100%;
+}
+ 
+  @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+  body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+ 
+  
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .logo {
+    float: left;
+    padding: 10px 0;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+  
+    position: relative;
+  }
+  
+  nav a {
+    color: #b2b3b3;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  nav a:hover {
+    color: #EFC862;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #EFC862;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 200ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+  
+  #r6gun{
+
+    width: 120px;
+    height: 100px;
+    position: relative; top: -80px;
+    
+    
+      }
+ 
+      #dawid{
+
+
+        color: #b2b3b3;
+        position: absolute; bottom: 5px;
+        
+        
+        }
+#operators{
+
+font-size: 30px;
+text-align: center;
+color: #EFC862;
+
+
+
+}
+#trykkher{
+
+
+text-align: center;
+font-size: 25px;
+
+}
+.bottom-box {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box; 
+  }
+  
+  
+
+  #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }  
+
+      

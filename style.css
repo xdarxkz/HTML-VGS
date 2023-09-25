@@ -1,0 +1,230 @@
+/* Nederst som dere ser har jeg brukt html taggen, og skrevet height 100%. Det er ansvarlig for at siden er 100% og ikke for eksempel 50% og for liten.  */
+
+html{
+
+  height: 100%;
+
+   
+
+  }
+
+  /* I taggen body har jeg brukt background-image og linear-gradient som er ansvarlig for fargene i bakgrunnen min. */
+  body {
+
+    background-image: linear-gradient(45deg, #0a0a0a,#696564);
+
+    font-family: 'Lexend Deca', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+  }
+
+ /* Herfra starter "nav" baren min. Litt vanskelig å forklare men skal prøve. Når man ser på tagene så har jeg gjort det på en måte man skal gjøre det på. Nevnet tagene som for eks. "Container, logo osv." */
+ 
+  @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+  body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+ 
+  
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .logo {
+    float: left;
+    padding: 10px 0;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+  
+    position: relative;
+  }
+  
+  nav a {
+    color: #b2b3b3;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  nav a:hover {
+    color: #EFC862;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #EFC862;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 200ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+
+
+  /* Til her er nav bar. */
+  
+  .ok{
+
+ 
+
+color: white;
+
+position: relative; right: 130px;
+
+position: relative; top: -30px;
+
+font-size:1vw;
+
+ 
+
+  }
+
+  .scrollable {
+    height: 300px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+ 
+
+p{
+
+  font-size:1vw;
+}
+
+#home{
+text-align: end;
+position: relative; right: 20px;
+position: relative; bottom: 100px;  
+font-size: 20px;
+
+
+}
+
+#ba{
+
+
+
+text-align: left;
+
+
+}
+
+#marque{
+
+
+position: relative; bottom: 200px;
+
+
+}
+
+.line {
+  border-bottom: 1px solid black;
+}
+
+#dawid{
+
+
+color: #b2b3b3;
+position: absolute; bottom: 0px;
+font-size: 16px;
+  border-bottom-style: groove;
+
+}
+.ma{
+
+text-align: center;
+position: relative; bottom: -60px;
+font-size: 30px;
+
+
+}
+
+/* Herfra starter "search bar" */
+.bottom-box {
+  background-color: #333; 
+  color: #fff; 
+  padding: 30px; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+::selection {
+  color: #fff;
+}
+.search {
+  padding: 20px 30px;
+  width: 500px;
+  font-weight: 500;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  position: relative; top: 150px;
+ 
+}
+::placeholder {
+  font-weight: 500;
+  color: #777;
+  
+}
+/* Her slutter "search bar" */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
